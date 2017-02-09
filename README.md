@@ -1,2 +1,0 @@
-# PreSchoolApp
-PreSchool education App 
