@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var correctAnswer: UILabel!
     
+    @IBOutlet weak var SadFace: UIImageView!
     
     @IBAction func Numbers(_ sender: UIButton)
         
@@ -38,18 +39,27 @@ class ViewController: UIViewController {
         let valueB = Int(randomno2.text!)
         let outputValue = (valueA! + valueB!)
         if outputValue == Int(label.text!) {
-            correctAnswer.text = "You Are Correct!"
+            //correctAnswer.text = "You Are Correct!"
             //correctAnswer.text = ""
+            performSegue(withIdentifier: "correct", sender: self)
             viewDidLoad()
-            
+        
         }
     
         else{
-        correctAnswer.text = "Wrong!"
-        //correctAnswer.text = ""
+            SadFace.isHidden = false
+            delay(1){
+                self.SadFace.isHidden = true
+    }
     }
     }
     
+    func delay(_ seconds: Double, completion: @escaping () -> ()) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+            completion()
+        }
+    }
+
 
     
     override func viewDidLoad() {

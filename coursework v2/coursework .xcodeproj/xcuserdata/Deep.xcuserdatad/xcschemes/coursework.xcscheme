@@ -55,7 +55,7 @@
             BlueprintIdentifier = "148300E41E4CCB4A00C83C02"
             BuildableName = "coursework.app"
             BlueprintName = "coursework"
-            ReferencedContainer = "container:coursework.xcodeproj">
+            ReferencedContainer = "container:coursework .xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "148300E41E4CCB4A00C83C02"
             BuildableName = "coursework.app"
             BlueprintName = "coursework"
-            ReferencedContainer = "container:coursework.xcodeproj">
+            ReferencedContainer = "container:coursework .xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
