@@ -17,6 +17,7 @@
 		148300F31E4CCB4A00C83C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148300F11E4CCB4A00C83C02 /* LaunchScreen.storyboard */; };
 		148300FE1E4CCB4A00C83C02 /* courseworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148300FD1E4CCB4A00C83C02 /* courseworkTests.swift */; };
 		148301091E4CCB4A00C83C02 /* courseworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148301081E4CCB4A00C83C02 /* courseworkUITests.swift */; };
+		14AC694B1E65DC3300029BB1 /* desismileys_4547.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */; };
 		14B29C6E1E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C671E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif */; };
 		14B29C6F1E5F603700B8C0B7 /* celebration-wallpaper-27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C681E5F603700B8C0B7 /* celebration-wallpaper-27.jpg */; };
 		14B29C701E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C691E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg */; };
@@ -65,6 +66,7 @@
 		148301041E4CCB4A00C83C02 /* courseworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = courseworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148301081E4CCB4A00C83C02 /* courseworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseworkUITests.swift; sourceTree = "<group>"; };
 		1483010A1E4CCB4A00C83C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = desismileys_4547.gif; path = images/desismileys_4547.gif; sourceTree = SOURCE_ROOT; };
 		14B29C671E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif"; path = "images/a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif"; sourceTree = "<group>"; };
 		14B29C681E5F603700B8C0B7 /* celebration-wallpaper-27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "celebration-wallpaper-27.jpg"; path = "images/celebration-wallpaper-27.jpg"; sourceTree = "<group>"; };
 		14B29C691E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_baby_backgrounds_vector_537580.jpg; path = images/cute_baby_backgrounds_vector_537580.jpg; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				148129161E536B11000CEF87 /* DraggedImageView.swift */,
 				148300EA1E4CCB4A00C83C02 /* ViewController.swift */,
 				148300EC1E4CCB4A00C83C02 /* Main.storyboard */,
+				14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */,
 				14B29C751E5F63B500B8C0B7 /* CorrectViewController.swift */,
 				1481291A1E5371E9000CEF87 /* apple.png */,
 				148129181E536EA5000CEF87 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif */,
@@ -283,6 +286,7 @@
 				148300F31E4CCB4A00C83C02 /* LaunchScreen.storyboard in Resources */,
 				14B29C731E5F603700B8C0B7 /* sad-face-thumbs-down-clipart-posted-by-pat-cunningham-on-k99M4w-clipart.png in Resources */,
 				14B29C711E5F603700B8C0B7 /* Cute-Backgrounds-for-Kids-Cartoon-Books.jpg in Resources */,
+				14AC694B1E65DC3300029BB1 /* desismileys_4547.gif in Resources */,
 				14B29C801E5F97B600B8C0B7 /* bird.JPG in Resources */,
 				14B29C6F1E5F603700B8C0B7 /* celebration-wallpaper-27.jpg in Resources */,
 				148300F01E4CCB4A00C83C02 /* Assets.xcassets in Resources */,
