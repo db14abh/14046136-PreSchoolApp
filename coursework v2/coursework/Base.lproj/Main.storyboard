@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -266,10 +266,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="celebration-wallpaper-27.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pVr-Iq-HkE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5K-LI-Rzs">
                                 <rect key="frame" x="16" y="0.0" width="359" height="659"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -285,23 +281,39 @@
                                 <rect key="frame" x="24" y="267" width="280" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cute_baby_backgrounds_vector_537580.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QDl-Cb-SdU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbs-up-192.png" translatesAutoresizingMaskIntoConstraints="NO" id="NbC-D3-Bb0">
+                                <rect key="frame" x="16" y="45" width="275" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download.png" translatesAutoresizingMaskIntoConstraints="NO" id="JfA-f5-W2I">
+                                <rect key="frame" x="197" y="388" width="123" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="480"/>
                     <connections>
+                        <outlet property="taponscreen" destination="JfA-f5-W2I" id="5M8-HU-h1x"/>
+                        <outlet property="thumbs_up" destination="NbC-D3-Bb0" id="vQl-mr-P6U"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="Main" id="v5g-ig-89j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJK-h6-e3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1100.625" y="35"/>
+            <point key="canvasLocation" x="1100.625" y="34.859154929577464"/>
         </scene>
     </scenes>
     <resources>
-        <image name="celebration-wallpaper-27.jpg" width="2910" height="2308"/>
         <image name="circle.png" width="100" height="100"/>
         <image name="cute_baby_backgrounds_vector_537580.jpg" width="500" height="500"/>
         <image name="desismileys_4547.gif" width="110" height="110"/>
+        <image name="download.png" width="261" height="193"/>
         <image name="purple-flower-17-clip-art-at-clker-com-vector-clip-art-online-NbcXp9-clipart.png" width="582" height="599"/>
         <image name="sad-face-thumbs-down-clipart-posted-by-pat-cunningham-on-k99M4w-clipart.png" width="325" height="306"/>
         <image name="thumbs-up-192.png" width="188" height="180"/>

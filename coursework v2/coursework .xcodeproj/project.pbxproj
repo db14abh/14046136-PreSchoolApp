@@ -18,6 +18,11 @@
 		148300FE1E4CCB4A00C83C02 /* courseworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148300FD1E4CCB4A00C83C02 /* courseworkTests.swift */; };
 		148301091E4CCB4A00C83C02 /* courseworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148301081E4CCB4A00C83C02 /* courseworkUITests.swift */; };
 		14AC694B1E65DC3300029BB1 /* desismileys_4547.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */; };
+		14AC694D1E661EC500029BB1 /* background_g.paint in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694C1E661EC500029BB1 /* background_g.paint */; };
+		14AC694F1E661FA700029BB1 /* background_g.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694E1E661FA700029BB1 /* background_g.jpeg */; };
+		14AC69531E671B5F00029BB1 /* celebration.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AC69501E671B5F00029BB1 /* celebration.gif */; };
+		14AC69541E671B5F00029BB1 /* tappingonscreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AC69511E671B5F00029BB1 /* tappingonscreen.gif */; };
+		14AC69551E671B5F00029BB1 /* thumbsup.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AC69521E671B5F00029BB1 /* thumbsup.gif */; };
 		14B29C6E1E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C671E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif */; };
 		14B29C6F1E5F603700B8C0B7 /* celebration-wallpaper-27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C681E5F603700B8C0B7 /* celebration-wallpaper-27.jpg */; };
 		14B29C701E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C691E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg */; };
@@ -30,6 +35,8 @@
 		14B29C7E1E5F95EF00B8C0B7 /* 6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C7D1E5F95EF00B8C0B7 /* 6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg */; };
 		14B29C801E5F97B600B8C0B7 /* bird.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C7F1E5F97B600B8C0B7 /* bird.JPG */; };
 		14B29C821E5F98F300B8C0B7 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B29C811E5F98F300B8C0B7 /* circle.png */; };
+		14C0FD3B1E71DCCF00ABE42A /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 14C0FD3A1E71DCCF00ABE42A /* download.png */; };
+		14C0FD3D1E71E68700ABE42A /* applause6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14C0FD3C1E71E68700ABE42A /* applause6.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +74,11 @@
 		148301081E4CCB4A00C83C02 /* courseworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseworkUITests.swift; sourceTree = "<group>"; };
 		1483010A1E4CCB4A00C83C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = desismileys_4547.gif; path = images/desismileys_4547.gif; sourceTree = SOURCE_ROOT; };
+		14AC694C1E661EC500029BB1 /* background_g.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = background_g.paint; path = ../images/background_g.paint; sourceTree = "<group>"; };
+		14AC694E1E661FA700029BB1 /* background_g.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_g.jpeg; path = images/background_g.jpeg; sourceTree = SOURCE_ROOT; };
+		14AC69501E671B5F00029BB1 /* celebration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = celebration.gif; path = images/celebration.gif; sourceTree = SOURCE_ROOT; };
+		14AC69511E671B5F00029BB1 /* tappingonscreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tappingonscreen.gif; path = images/tappingonscreen.gif; sourceTree = SOURCE_ROOT; };
+		14AC69521E671B5F00029BB1 /* thumbsup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = thumbsup.gif; path = images/thumbsup.gif; sourceTree = SOURCE_ROOT; };
 		14B29C671E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif"; path = "images/a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif"; sourceTree = "<group>"; };
 		14B29C681E5F603700B8C0B7 /* celebration-wallpaper-27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "celebration-wallpaper-27.jpg"; path = "images/celebration-wallpaper-27.jpg"; sourceTree = "<group>"; };
 		14B29C691E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_baby_backgrounds_vector_537580.jpg; path = images/cute_baby_backgrounds_vector_537580.jpg; sourceTree = "<group>"; };
@@ -79,6 +91,8 @@
 		14B29C7D1E5F95EF00B8C0B7 /* 6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg"; path = "images/6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg"; sourceTree = "<group>"; };
 		14B29C7F1E5F97B600B8C0B7 /* bird.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bird.JPG; path = images/bird.JPG; sourceTree = "<group>"; };
 		14B29C811E5F98F300B8C0B7 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = images/circle.png; sourceTree = "<group>"; };
+		14C0FD3A1E71DCCF00ABE42A /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = images/download.png; sourceTree = "<group>"; };
+		14C0FD3C1E71E68700ABE42A /* applause6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause6.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,7 @@
 		148300DC1E4CCB4A00C83C02 = {
 			isa = PBXGroup;
 			children = (
+				14C0FD3A1E71DCCF00ABE42A /* download.png */,
 				14B29C811E5F98F300B8C0B7 /* circle.png */,
 				14B29C7F1E5F97B600B8C0B7 /* bird.JPG */,
 				14B29C7D1E5F95EF00B8C0B7 /* 6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg */,
@@ -144,6 +159,12 @@
 				148129161E536B11000CEF87 /* DraggedImageView.swift */,
 				148300EA1E4CCB4A00C83C02 /* ViewController.swift */,
 				148300EC1E4CCB4A00C83C02 /* Main.storyboard */,
+				14C0FD3C1E71E68700ABE42A /* applause6.mp3 */,
+				14AC69501E671B5F00029BB1 /* celebration.gif */,
+				14AC69511E671B5F00029BB1 /* tappingonscreen.gif */,
+				14AC69521E671B5F00029BB1 /* thumbsup.gif */,
+				14AC694E1E661FA700029BB1 /* background_g.jpeg */,
+				14AC694C1E661EC500029BB1 /* background_g.paint */,
 				14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */,
 				14B29C751E5F63B500B8C0B7 /* CorrectViewController.swift */,
 				1481291A1E5371E9000CEF87 /* apple.png */,
@@ -283,20 +304,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AC69551E671B5F00029BB1 /* thumbsup.gif in Resources */,
 				148300F31E4CCB4A00C83C02 /* LaunchScreen.storyboard in Resources */,
 				14B29C731E5F603700B8C0B7 /* sad-face-thumbs-down-clipart-posted-by-pat-cunningham-on-k99M4w-clipart.png in Resources */,
 				14B29C711E5F603700B8C0B7 /* Cute-Backgrounds-for-Kids-Cartoon-Books.jpg in Resources */,
 				14AC694B1E65DC3300029BB1 /* desismileys_4547.gif in Resources */,
 				14B29C801E5F97B600B8C0B7 /* bird.JPG in Resources */,
 				14B29C6F1E5F603700B8C0B7 /* celebration-wallpaper-27.jpg in Resources */,
+				14AC694D1E661EC500029BB1 /* background_g.paint in Resources */,
+				14AC69531E671B5F00029BB1 /* celebration.gif in Resources */,
 				148300F01E4CCB4A00C83C02 /* Assets.xcassets in Resources */,
+				14AC69541E671B5F00029BB1 /* tappingonscreen.gif in Resources */,
 				14B29C701E5F603700B8C0B7 /* cute_baby_backgrounds_vector_537580.jpg in Resources */,
+				14C0FD3D1E71E68700ABE42A /* applause6.mp3 in Resources */,
 				148129191E536EA5000CEF87 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif in Resources */,
 				148300EE1E4CCB4A00C83C02 /* Main.storyboard in Resources */,
 				14B29C6E1E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif in Resources */,
 				1481291B1E5371E9000CEF87 /* apple.png in Resources */,
 				14B29C7A1E5F910C00B8C0B7 /* 179349.svg in Resources */,
 				14B29C7E1E5F95EF00B8C0B7 /* 6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg in Resources */,
+				14AC694F1E661FA700029BB1 /* background_g.jpeg in Resources */,
+				14C0FD3B1E71DCCF00ABE42A /* download.png in Resources */,
 				14B29C741E5F603700B8C0B7 /* thumbs-up-192.png in Resources */,
 				14B29C721E5F603700B8C0B7 /* purple-flower-17-clip-art-at-clker-com-vector-clip-art-online-NbcXp9-clipart.png in Resources */,
 				14B29C821E5F98F300B8C0B7 /* circle.png in Resources */,
