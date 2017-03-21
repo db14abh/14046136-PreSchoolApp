@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -28,6 +29,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var flower8: DraggedImageView!
     @IBOutlet weak var flower9: DraggedImageView!
     @IBOutlet weak var flower10: DraggedImageView!
+    
+    var BackGroundMusic = AVAudioPlayer()
     
     @IBOutlet weak var SadFace: UIImageView!
     
@@ -53,8 +56,10 @@ class ViewController: UIViewController {
         if outputValue == Int(label.text!) {
             //correctAnswer.text = "You Are Correct!"
             //correctAnswer.text = ""
+            BackGroundMusic.stop()
+            
             performSegue(withIdentifier: "correct", sender: self)
-            viewDidLoad()
+            //viewDidLoad()
         
         }
     
@@ -72,13 +77,25 @@ class ViewController: UIViewController {
         }
     }
 
-
+    //BackGround Music
     
+    func MusicBackground() {
+        do{
+            BackGroundMusic = try AVAudioPlayer (contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "bensound-funnysong", ofType:"mp3")!))
+            
+            BackGroundMusic.prepareToPlay()
+        }
+        catch{
+            print("MusicBackground")
+        }
+        BackGroundMusic.play()
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         question.text = String(valueA) +  " + " + String(valueB) + " = " 
-        
+        MusicBackground()
         
     }
     
@@ -88,6 +105,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
+    
+    
+    
     override func viewDidAppear(_ animated: Bool) {
         flower1.center.x = flower1.center.x - 10
         flower2.center.x = flower2.center.x - 10
@@ -112,9 +133,7 @@ class ViewController: UIViewController {
             self.flower8.center.x = self.flower8.center.x + 10
             self.flower9.center.x = self.flower9.center.x + 10
             self.flower10.center.x = self.flower10.center.x + 10
-
-        
-        
+            
         
         
         }, completion: nil)

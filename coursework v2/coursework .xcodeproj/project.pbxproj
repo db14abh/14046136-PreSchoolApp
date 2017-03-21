@@ -17,6 +17,7 @@
 		148300F31E4CCB4A00C83C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148300F11E4CCB4A00C83C02 /* LaunchScreen.storyboard */; };
 		148300FE1E4CCB4A00C83C02 /* courseworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148300FD1E4CCB4A00C83C02 /* courseworkTests.swift */; };
 		148301091E4CCB4A00C83C02 /* courseworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148301081E4CCB4A00C83C02 /* courseworkUITests.swift */; };
+		148D871E1E7EF7E700C4B76C /* bensound-funnysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 148D871D1E7EF7E700C4B76C /* bensound-funnysong.mp3 */; };
 		14AC694B1E65DC3300029BB1 /* desismileys_4547.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */; };
 		14AC694D1E661EC500029BB1 /* background_g.paint in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694C1E661EC500029BB1 /* background_g.paint */; };
 		14AC694F1E661FA700029BB1 /* background_g.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 14AC694E1E661FA700029BB1 /* background_g.jpeg */; };
@@ -73,6 +74,7 @@
 		148301041E4CCB4A00C83C02 /* courseworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = courseworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148301081E4CCB4A00C83C02 /* courseworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseworkUITests.swift; sourceTree = "<group>"; };
 		1483010A1E4CCB4A00C83C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148D871D1E7EF7E700C4B76C /* bensound-funnysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-funnysong.mp3"; path = "coursework/bensound-funnysong.mp3"; sourceTree = "<group>"; };
 		14AC694A1E65DC3300029BB1 /* desismileys_4547.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = desismileys_4547.gif; path = images/desismileys_4547.gif; sourceTree = SOURCE_ROOT; };
 		14AC694C1E661EC500029BB1 /* background_g.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = background_g.paint; path = ../images/background_g.paint; sourceTree = "<group>"; };
 		14AC694E1E661FA700029BB1 /* background_g.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background_g.jpeg; path = images/background_g.jpeg; sourceTree = SOURCE_ROOT; };
@@ -123,6 +125,7 @@
 		148300DC1E4CCB4A00C83C02 = {
 			isa = PBXGroup;
 			children = (
+				148D871D1E7EF7E700C4B76C /* bensound-funnysong.mp3 */,
 				14C0FD3A1E71DCCF00ABE42A /* download.png */,
 				14B29C811E5F98F300B8C0B7 /* circle.png */,
 				14B29C7F1E5F97B600B8C0B7 /* bird.JPG */,
@@ -320,6 +323,7 @@
 				148129191E536EA5000CEF87 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif in Resources */,
 				148300EE1E4CCB4A00C83C02 /* Main.storyboard in Resources */,
 				14B29C6E1E5F603700B8C0B7 /* a3eecdf48a47e7cf7011744416be731f_animated-apple-gif-apple-animated-clipart_493-437.gif in Resources */,
+				148D871E1E7EF7E700C4B76C /* bensound-funnysong.mp3 in Resources */,
 				1481291B1E5371E9000CEF87 /* apple.png in Resources */,
 				14B29C7A1E5F910C00B8C0B7 /* 179349.svg in Resources */,
 				14B29C7E1E5F95EF00B8C0B7 /* 6424892-Beautiful-eco-icon-Vector-illustration--Stock-Vector-leaf-green-background.jpg in Resources */,
